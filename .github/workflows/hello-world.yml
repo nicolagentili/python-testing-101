@@ -1,0 +1,9 @@
+name: "Hello World";
+on:
+    push:
+      
+jobs:
+    hello-world:
+        runs-on: ubuntul-latest
+        steps:
+            -run: echo Hello World!
